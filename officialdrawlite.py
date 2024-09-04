@@ -86,7 +86,7 @@ elif result == 30:
   classification = "pizza"
 
 #%env REPLICATE_API_TOKEN=YOURTOKENFROMREPLICATE
-# %env REPLICATE_API_TOKEN=r8_6CDe8mroCVEWPpyvxPWjVPRUtwJHB2V0kwhPp
+# %env REPLICATE_API_TOKEN=
 
 replicate.run(
   "stability-ai/stable-diffusion:27b93a2413e7f36cd83da926f3656280b2931564ff050bf9575f1fdf9bcd7478",
